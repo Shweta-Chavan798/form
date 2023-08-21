@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Heading-->
+    <div class="heading">
+        <h1>Geeks For Geeks Survey Form</h1>
+    </div>
+
+
+    <!--For Name-->
+    <div class="content">
+        <div class="form">
+            <label for="name">Name</label>
+            <input type="text" class="name" placeholder="Enter name"  />
+        </div>
+    
+
+    <!--For Email-id-->
+        <div class="form">
+            <label for="email-id">Email</label>
+            <input type="email" class="email" placeholder="Enter email-id">
+        </div>
+
+
+    <!--For Age-->
+        <div class="form">
+            <label for="Age">Age</label>
+            <input type="number" class="age"placeholder="Enter age">
+        </div>
+
+    <!--For Selecting option-->
+         <div class="form">
+            <label for="option">Which option best describes you ?</label>
+    
+            <select name="option" id="">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+    <!--Yes Or no-->
+         <div class="form">
+            <label for="yes-no">Would you recommed geeks for geeks to a friend</label>
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">No</input>
+            </label>
+            <label for="recommed-3">
+                 <input type="radio" id="recommed-3" name="recommed">May be</input>
+            </label>
+        </div>
+
+    <!--For languages-->
+        <div class="form">
+
+            <label for="language">Languages and framework Known
+            <small>(check all that apply)</small>
+        </label>
+
+            <label for="one">
+                <input type="checkbox" id="one">C</input>
+            </label>
+            <label for="two">
+                <input type="checkbox" id="two">C++</input>
+            </label>
+            <label for="three">
+                <input type="checkbox" id="three">C#</input>
+            </label>
+            <label for="four">
+                <input type="checkbox" id="four">Java</input>
+            </label>
+            <label for="five">
+                <input type="checkbox" id="five">Python</input>
+            </label>
+            <label for="six">
+                <input type="checkbox" id="six">Javascript</input>
+            </label>
+            <label for="seven">
+                <input type="checkbox" id="seven">React</input>
+            </label>
+            <label for="eight">
+                <input type="checkbox" id="eight">Angular</input>
+            </label>
+            <label for="nine">
+                <input type="checkbox" id="nine">Django</input>
+            </label>
+            <label for="ten">
+                <input type="checkbox" id="teno">Spring</input>
+            </label>
+            
+        </div>
+
+    <!--comment section-->
+        <div class="form">
+            <label for="comment">Any suggestions or comment</label>
+            <input type="textarea" class="comment"></input>
+        </div>
+
+    <!--Submit button-->
+        <div class="form">
+            <button type="submit">Submit</button>
+        </div>
+
+    </div>
+</body>
+</html>
