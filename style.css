@@ -1,0 +1,53 @@
+html{
+    background:green;
+}
+
+.heading{
+    width:600px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.heading h1{
+    text-align: center;
+}
+
+.content{
+    background: white;
+    width:600px;
+    margin: 0 auto;
+    border:1px solid black;
+    border-radius: 5px;
+}
+
+/* .form{
+    padding: 8px;
+}
+
+.name{
+    width:500px;
+} */
+
+.form{
+    padding: 15px;
+    margin-bottom: 8px;
+}
+
+.form label{
+     display: block; 
+     margin-bottom: 5px;
+}
+
+.name,
+.email,
+.age,
+.comment{
+    width:90%;
+    padding: 8px;
+}
+
+button{
+    background: green;
+    width:100%;
+    padding: 8px;
+}
